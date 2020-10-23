@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*===========================================================================
+ 공지
+ 
+ 수정해야할 기본 값
+ font-size : 
+ font-common-color : 
+ font-family : 
+ line-height : 1 / 1.5
+ main-color : 
+ sub-color : 
+ image-size : initial / auto 
+ input-border-color : 
+ input-normal-color : 
+ input-font-size : 
+ textarea-border-color : 
+============================================================================*/
+
+
+/*===========================================================================
+	RESET
+============================================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button, input, br {margin:0;padding:0;border:0;box-sizing:border-box;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+a {display: inline-block;text-decoration:none;color:inherit;}
+a:link, a:visited {text-decoration:none;}
+a:hover, a:active {text-decoration:none;}
+img {border:none;vertical-align:middle; width:100%;}
+ol, ul, li {list-style:none;}
+i, em {font-style: normal;}
+legend{width:1px;height:1px;overflow:hidden;visibility:hidden;line-height:0;font-size:0;position:absolute; left:-999px;}
+
+
+
+/*common*/
+* {font-family:'Open Sans', 'Noto Sans KR', sans-serif; font-weight:normal;font-size:14px;box-sizing:border-box;line-height:1;}
+.line_h8{line-height:1.8;}
+.line_h6{line-height:1.6;}
+.line_h5{line-height:1.5;}
+.line_h4{line-height:1.4;}
+.line_h3{line-height:1.3;}
+
+.clear::after {
+  display:block; 
+  content:""; 
+  clear:both;
+}
+.noSpace {
+  letter-spacing: 0 ! important;
+}
+.flex { display:flex; justify-content: space-between; align-items: center;}
+
+/*===========================================================================
+	width
+============================================================================*/
+.width_100{width:100%;}
+.width_83{width:83%}
+.width_80{width:80%}
+.width_70{width:70%}
+.width_66{width:66%}
+.width_50{width:50%}
+.width_48{width:48%}
+.width_33{width:33%}
+.width_30{width:30%;}
+.width_20{width:20%;}
+.width_10{width:10%}
+
+
+/*===========================================================================
+	select
+============================================================================*/
+select {width:100%; }
+select.select50{width:50%;}
+select.select30{width:30%;}
+select.select25{width:25%;}
+select.select15{width:15%;}
+select.select5{width:5%;}
+
+/*===========================================================================
+	float
+============================================================================*/
+.floatL{float:left;}
+.floatR{float:right;}
+
+/*===========================================================================
+	text-align
+============================================================================*/
+.textL{text-align:left;}
+.textR{text-align:right;}
+.textC{text-align:center;}
+
+/*===========================================================================
+	margin padding
+============================================================================*/
+.mt90 {margin-top: 90px;}
+.mt85 {margin-top: 85px;}
+.mt48 {margin-top: 48px;}
+.mt45 {margin-top: 45px;}
+.mt10 {margin-top: 10px;}
+.mt20 {margin-top: 20px;}
+.mr10 {margin-right:10px !important;}
+.mb50 {margin-bottom: 50px !important;}
+.mb40 {margin-bottom: 40px !important;}
+.mb20 {margin-bottom: 20px;}
+.mb15 {margin-bottom: 15px;}
+.mb10 {margin-bottom: 10px;}
+.ml75 {margin-left: 75px;}
+.ml175 {margin-left: 175px;}
+.ml20 {margin-left: 20px;}
+.ml25 {margin-left: 25px;}
+.ml10 {margin-left: 10px;}
+.pt130 {padding-top: 130px;}
+.pt80 {padding-top: 80px;}
+.pt50 {padding-top: 50px;}
+.pt45 {padding-top: 45px !important;}
+.pt25 {padding-top: 25px;}
+.pt20 {padding-top: 20px;}
+.pt18 {padding-top: 18px;}
+.pt15 {padding-top: 15px;}
+.pt10 {padding-top: 10px;}
+.pt5 {padding-top: 5px;}
+.pr20 {padding-right:20px;}
+.pr10 {padding-right:10px;}
+.pb35{padding-bottom:35px;}
+.pb90{padding-bottom:90px;}
+.pb30{padding-bottom:30px;}
+.pb50{padding-bottom:50px;}
+.pb25{padding-bottom:25px;}
+.pb10 {padding-bottom: 10px;}
+.pl16{padding-left:16px;}
+.pl10{padding-left:10px;}
+
+/*===========================================================================
+    font
+============================================================================*/
+/*폰트사이즈*/
+.font_50{font-size:50px;}
+.font_40{font-size:40px;}
+.font_35{font-size:35px;}
+.font_32{font-size:32px;}
+.font_28{font-size:28px;}
+.font_26{font-size:26px;}
+.font_25{font-size:25px;}
+.font_24{font-size:24px;}
+.font_22{font-size:22px;}
+.font_20{font-size:20px;}
+.font_18{font-size:18px;}
+.font_16 {font-size:16px;}
+.font_15 {font-size:15px;}
+.font_13 {font-size:13px;}
+.small_font {font-size: 12px;}
+.title_font {font-size: 35px;color: #fff;padding-top: 175px;}
+
+/*폰트두께*/
+.normal {font-weight:normal;}
+.bold{font-weight:bold;}
+.medium{font-weight:500;}
+
+/*폰트컬러*/
+.main_color {color: #df0031;}
+.whiteT{color:#fff;}
+.normalT{color:#333333;}
+.skyT{color:#95b3e4;}
+.greyT{color:#666666;}
+.grey2T{color:#b0b0b0;}
+.red{color:#ff3e3e;}
+.blue{color:#8ba4c9;}
+
+
+
+/*===========================================================================
+    button
+============================================================================*/
+
+
+/*===========================================================================
+     table
+============================================================================*/
+table{}
+thead tr {}
+thead th {}
+tr{}
+th{}
+td{}
+th,td{}
+.tr_center{text-align:center;}
+
+/*===========================================================================
+    pagination
+============================================================================*/
+.pagination{text-align:center; margin-top:40px;}
+.pagination ul{}
+.pagination li{;}
+.pagination li:first-child , .pagination li:last-child {}
+.pagination li:first-child a, .pagination li:last-child a {}
+.pagination li:first-child img , .pagination li:last-child img {}
+.pagination li a{}
+.pagination li a.active{}
+
+
+/*===========================================================================
+     tab
+============================================================================*/
+
+
+/*===========================================================================
+     기타
+============================================================================*/
+
+
+/*===========================================================================
+     wrap
+============================================================================*/
+.container{
+  width:935px; 
+  height:100%; 
+  margin:0 auto;
+}
+
+/*===========================================================================
+    header
+============================================================================*/
+
+
+
+
+/*===========================================================================
+    footer
+============================================================================*/

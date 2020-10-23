@@ -1,0 +1,48 @@
+#asideWrap {
+  width:293px;
+  background:initial;
+
+  .myProfileWrap {
+    display:flex;
+    align-items: center;
+    margin:18px 0 10px;
+    .myProfile {
+      width:56px;
+      height:56px;
+      border:1px solid #ccc;
+      border-radius:50%;
+      overflow:hidden;
+    }
+    .nameArea {
+      margin-left: 14px;
+      p {
+        color:#262626;
+        &:first-child {
+          font-size:14px;
+          font-weight:600;
+          margin-bottom:4px;
+        }
+        &:last-child {
+          font-size:14px;
+          color:#999;
+        }
+      }
+    }
+  }
+  .userRecommendWrap {
+    padding:20px 0;
+    .recommendArea {
+      display:flex;
+      justify-content: space-between;
+      font-size:14px;
+      h3 {
+        color:#999;
+        font-weight:600;
+      }
+    }
+
+    .userArea {
+      padding:8px 0;
+    }
+  }
+}

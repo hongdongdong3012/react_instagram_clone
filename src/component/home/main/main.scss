@@ -1,0 +1,63 @@
+#mainWrap {
+  width:612px;
+  
+  #contentsWrap {
+
+    .content{
+      min-height:120px;
+      padding: 16px 0 0;
+      margin-bottom:16px;
+      background:#fff;
+      border:1px solid #dbdbdb;
+      border-radius:4px;
+
+      .contentHeader {
+        display:flex;
+        height: 60px;
+        padding: 16px;
+        .myProfileArea {
+          width:34px;
+          height:34px;
+          border:1px solid #ccc;
+          border-radius:50%;
+          overflow:hidden;
+        }
+        .nameArea {
+          margin-left: 14px;
+          p {
+            color:#262626;
+            &:first-child {
+              font-size:14px;
+              font-weight:600;
+              margin-bottom:4px;
+            }
+            &:last-child {
+              font-size:12px;
+            }
+          }
+        }
+      }
+      .contentImages {
+        .imageArea {
+          height:612px;
+        }
+        .contentWrap {
+          height:40px;
+        }
+      }
+      .contentComment {
+
+        .commentArea {
+          display:flex;
+          justify-content: space-between;
+          border-top:1px solid #dbdbdb;
+          padding:12px 16px;
+          button {
+            background:initial;
+            border:initial;
+          }
+        }
+      }
+    }
+  }
+}

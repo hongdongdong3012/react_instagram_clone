@@ -1,0 +1,39 @@
+header {
+  background:#fff;
+  padding:12px 0;
+  border-bottom:1px solid #dbdbdb;
+
+  .container {
+    display:flex;
+    justify-content: space-between;
+
+    .logo {
+      width:100px;
+    }
+    .searchWrap {
+      input {
+        width:215px;
+        border:1px solid #dbdbdb;
+        border-radius:4px;
+        font-size:14px;
+        background:#fafafa;
+        overflow: hidden;
+        padding: 5px 7px;
+        text-align: center;
+        line-height: 1;
+        &::placeholder {
+          font-size:13px;
+          color:#999;
+        }
+      }
+    }
+    .functionWrap {
+      display:flex;
+      justify-content: space-between;
+
+      li {
+        width:22px;
+      }
+    }
+  }
+}
